@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./docsify@4.12.1/themes/vue.css">
+</head>
+<body>
+  <div id="app">加载中</div>
+  <div data-app id="main">加载中</div>
+
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      loadNavbar: true,
+      alias: {
+          '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      search: {
+        placeholder: {'/': '搜索'},
+        noData: {'/': '找不到结果'},
+      },
+      subMaxLevel: 1,
+    	toc: {
+      	   tocMaxLevel: 4,
+           target: 'h2, h3, h4, h5, h6'
+        },
+      count:{
+        countable: true,
+        position: 'bottom',
+        color:'rgb(90,90,90)',
+        language:'chinese',
+        isExpected: false
+      }
+    }
+  </script>  
+  <script src="./docsify@4.12.1/lib/docsify.min.js"></script>
+  <script src="./docsify@4.12.1/lib/plugins/search.js"></script>
+  <script src="./docsify@4.12.1/lib/plugins/docsify-plugin-toc"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="./docsify@4.12.1/lib/plugins/prismjs@1/prism-python.min.js"></script>
+  <script src="./docsify@4.12.1/lib/plugins/prismjs@1/prism-json.min.js"></script>
+  <script src="./docsify@4.12.1/lib/plugins/prismjs@1/prism-bash.min.js"></script>
+</body>
+</html>
+
