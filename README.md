@@ -1,35 +1,28 @@
-[TOC]
 # 首页
 ## 内容
 
-本站点  由 @Bigcaitou 维护，内容包括但不限于如下：
-* 个人主站
+本站点  由 `大菜头(@dacaitou) 维护`，内容包括但不限于如下：
+* 主站搭建
 * 技术分享
+* 个人见解
 
 
 ## 站点搭建
 
 本站点的搭建通过如下工具实现：
 
-* 静态网站文档生成器： [docsify](https://docsify.js.org/#/)
+* 静态网站文档生成器： [docsify@4.12.1](https://docsify.js.org/#/)
 * 代码高亮： [prismjs](https://prismjs.com/)
 * 代码及文档托管： [github](https://www.github.com/Bigcaitou/dacaitou)
-    
-    ```yml
-    pages:
-        stage: deploy
-        script:
-        - mkdir .public
-        - cp -r docs/* .public
-        - mv .public public
-        artifacts:
-            paths:
-            - public
-        only:
-        - master
-    ```
+* 域名指向
+    * `www.dact.dev` = `bigcaitou.github.io` → *.*.*.*(github page接入点)
+* 静态文件托管
+    * 通过 [github page](https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages) 实现
+    * 通过github接入层自带的重定向功能
+        * 将 https://www.dact.dev 重定向到 → 对应的repo https://www.github.com/Bigcaitou/dacaitou  → 对应的 github page 的 public 目录
+    * 配置方式详见[docsify-部署-GitHub Pages](https://docsify.js.org/#/zh-cn/deploy?id=gitlab-pages)
 
-## 协作指引
+## 项目目录树
 
 本项目文件树如下：
 
@@ -55,6 +48,5 @@
     └── index.html # docsify核心入口文件
 ```
 
- 
  
 
