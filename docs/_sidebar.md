@@ -2,8 +2,8 @@
 
 * [首页](/)
 * [twitter](/twitter/README.md)
-  * [狮子、毒蛇和鳄鱼 后篇](/twitter/hand_in_there_2.md)
-  * [狮子、毒蛇和鳄鱼 前篇](/twitter/hand_in_there_1.md)
+  * [狮子、毒蛇和鳄鱼 后篇](/twitter/hang_in_there_2.md)
+  * [狮子、毒蛇和鳄鱼 前篇](/twitter/hang_in_there_1.md)
 * [Web](/web/README.md)
   * [http://dact.dev搭建记录](/web/dact.dev.md)
   * [KindEditor与ckplayer的简单结合](/web/KindEditor&ckplayer.md)
