@@ -1,9 +1,23 @@
 <!-- docs/_sidebar.md -->
 
 * [首页](/)
+* [twitter](/twitter/README.md)
+  * [狮子、毒蛇和鳄鱼 后篇](/twitter/hand_in_there_2.md)
+  * [狮子、毒蛇和鳄鱼 前篇](/twitter/hand_in_there_1.md)
+* [Web](/Web/README.md)
+  * [http://dact.dev搭建记录](/Web/dact.dev.md)
+  * [KindEditor与ckplayer的简单结合](/Web/KindEditor&ckplayer.md)
+  * [一个8块钱的域名引发的](/Web/hehehe.xyz.md)
+  * [网页中的中文自定义字体和@font-face](custom_font.md/Web/custom_font.md)
+* [Linux](/Linux/README.md)
+  * [SVN的搭建与迁移](/Linux/svn_usage.md)
+  * [中标麒麟操作系统V6安装NGINX](/Linux/NeoKylin_install_Nginx.md)
 * [Python](/python/README.md)
   * [PonyORM实现原理浅析](/python/ponyorm_implement.md)
-  
-
-
+* [Java](/Java/README.md)
+  * [JAVA屏幕截图与水印添加程序-HEHEHEScreenshot](/Java/hehehe_snapshot.md)
+  * [MyBatis批量更新](/Java/MyBatis_batch_update.md)
+  * [jforum二次开发相关笔记——（一）页面请求机制](/Java/jforum1.md)
+* [OS](/OS/README.md)
+  * [OSX EI Captain 更改应用图标](/OS/macos_change_icon.md)
 

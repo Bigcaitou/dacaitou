@@ -5,9 +5,12 @@
 ## 站点内容
 
 本站点包括但不限于如下：
-* 主站搭建
-* 技术分享
-* 个人见解
+* [twitter|呢喃](/twitter/README.md)
+* [Web](/Web/README.md)
+* [Linux](/Linux/README.md)
+* [Python](/python/README.md)
+* [Java](/Java/README.md)
+* [OS](/OS/README.md)
 
 
 ## 站点搭建
@@ -24,6 +27,6 @@
     * 通过github接入层自带的重定向功能
         * 将 https://www.dact.dev 重定向到 → 对应的repo https://www.github.com/Bigcaitou/dacaitou  → 对应的 github page 的 public 目录
     * 配置方式详见[docsify-部署-GitHub Pages](https://docsify.js.org/#/zh-cn/deploy?id=gitlab-pages)
-
+* 评论系统：[gitalk](https://github.com/gitalk/gitalk)
  
 
